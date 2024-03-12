@@ -1,0 +1,26 @@
+.activity-dashboard {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .activity-dashboard__list {
+    flex: 1;
+    margin-right: 1rem;
+    max-width: 800px;
+    min-width: 400px; /* dodano */
+  }
+  
+  /* Responzivnost */
+  @media only screen and (max-width: 768px) {
+    .activity-dashboard {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .activity-dashboard__list {
+      margin-right: 0;
+      max-width: 100%;
+      min-width: auto;
+    }
+  }
+  

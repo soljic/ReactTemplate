@@ -1,0 +1,18 @@
+.segmentDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.containerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headerDiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
